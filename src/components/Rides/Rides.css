@@ -1,0 +1,16 @@
+.vd{
+    height: 550px;
+}
+
+.ride{
+    /* border: 1px solid red; */
+    text-align: center !important;
+    background: white;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+.ride img{
+    height: 200px;
+    padding: 20px;
+    border-radius: 5px;
+}

@@ -1,0 +1,31 @@
+[{
+    "id": 1,
+    "name": "Lionel Messi",
+    "salary": 26000000,
+    "shirtnumber": 10,
+    "position": "Forward ",
+    "nationality": "Argentine ",
+    "age": 33 ,
+    "category":"bike",
+    "image": "https://thumbor.forbes.com/thumbor/fit-in/416x416/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5ec595d45f39760007b05c07%2F0x0.jpg%3Fbackground%3D000000%26cropX1%3D989%26cropX2%3D2480%26cropY1%3D74%26cropY2%3D1564"
+  }, {
+    "id": 6,
+    "name": "Pedri",
+    "category":"bus",
+    "salary": 1000000,
+    "shirtnumber": 16 ,
+    "position": "Forward",
+    "nationality": "Spanish ",
+    "age": 18 ,
+    "image": "https://specials-images.forbesimg.com/imageserve/5fe3cff057306a699dad864b/960x0.jpg?cropX1=400&cropX2=3176&cropY1=61&cropY2=1622"
+  }, {
+    "id": 15,
+    "name": "Cristiano Ronaldo",
+    "salary": 31000000,
+    "category":"bike",
+    "shirtnumber": 7,
+    "position": "Forward",
+    "nationality": "Portuguese ",
+    "age": 36 ,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Cristiano_Ronaldo_2018.jpg"
+  }]
