@@ -1,5 +1,5 @@
 .vd{
-    height: 550px;
+    height: 600px;
 }
 
 .ride{
@@ -8,9 +8,11 @@
     background: white;
     border-radius: 1rem;
     cursor: pointer;
+    box-shadow: 5px 5px 5px gray;
 }
 .ride img{
-    height: 200px;
+    height: 250px;
+    width: 500px;
     padding: 20px;
     border-radius: 5px;
 }

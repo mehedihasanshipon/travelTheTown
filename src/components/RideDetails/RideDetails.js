@@ -29,7 +29,9 @@ const RideDetails = () => {
       <div className="row mt-2">
         <div className="col-md-5">
           <div className="ride-info">
-            <form>
+            {
+              !search?
+              <form>
                 <div className="mb-3">
                     <label for="from" className="form-label">Pick from </label>
                     <input type="email" className="form-control" id="from" aria-describedby="emailHelp"></input>
@@ -39,6 +41,8 @@ const RideDetails = () => {
                     <input type="email" className="form-control" id="to" aria-describedby="emailHelp"></input>
                 </div>
             </form>
+            :""
+            }
             <button onClick={()=>{setSearch(!search)}} className="search-btn">Search</button>
             {
                 search && rides.map(ride=><MatchRides ride={ride} />)

@@ -14,3 +14,7 @@
     width: 50px;
     border-radius: 10px;
 }
+.avatar img{
+    height: 30px;
+    width: 30px;
+}

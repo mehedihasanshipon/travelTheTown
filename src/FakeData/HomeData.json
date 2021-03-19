@@ -1,22 +1,22 @@
  [
     {
         "title": "BIKE",
-        "imgUrl": "https://cdn.jumeirah.com/-/mediadh/dh/hospitality/jumeirah/offers/offer-images/burj-al-arab-presidential-suite-living-room-4-hero.jpg",
+        "imgUrl": "https://i.ibb.co/pbYMQ39/Frame.png",
         "rideType": "bike"
     },
     {
         "title": "CAR",
-        "imgUrl": "https://cdn.jumeirah.com/-/mediadh/dh/hospitality/jumeirah/offers/offer-images/burj-al-arab-presidential-suite-living-room-4-hero.jpg",
+        "imgUrl": "https://i.ibb.co/tKmszbc/Frame-2.png",
         "rideType": "car"
     },
     {
         "title": "BUS",
-        "imgUrl": "https://cdn.jumeirah.com/-/mediadh/dh/hospitality/jumeirah/offers/offer-images/burj-al-arab-presidential-suite-living-room-4-hero.jpg",
+        "imgUrl": "https://i.ibb.co/fVRW5yP/Frame-1.png",
         "rideType": "bus"
     },
     {
         "title": "TRAIN",
-        "imgUrl": "https://cdn.jumeirah.com/-/mediadh/dh/hospitality/jumeirah/offers/offer-images/burj-al-arab-presidential-suite-living-room-4-hero.jpg",
+        "imgUrl": "https://i.ibb.co/3dCgMSt/Group.png",
         "rideType": "train"
     }
 ]
