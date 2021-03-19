@@ -1,0 +1,16 @@
+.rides-info{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+.ride-info img{
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+}

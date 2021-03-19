@@ -19,11 +19,8 @@ const RideDetails = () => {
   // console.log(rides);
 
   useEffect(()=>{
-
     const matchRides = FakeData.filter(ride => ride.category.toLowerCase() === type.toLowerCase());
-
-    //   const matchRides = allRides.filter(ride => ride.category.toLowerCase() === type.toLowerCase());
-      setRides(matchRides);
+    setRides(matchRides);
   },[type])
 
 
