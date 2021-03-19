@@ -16,7 +16,7 @@ const Header = () => {
                 <Link className="nav-link" to="/">Destination</Link>
                 <Link className="nav-link" to="/blog">Blog</Link>
                 <Link className="nav-link" to="/contact">Contact</Link>
-                <Link to="/login"><button className="btn btn-danger">Log in</button></Link>
+                <Link className="btn btn-danger" to="/login">Log in</Link>
                 </Nav>
             </Navbar.Collapse>
             </div>
