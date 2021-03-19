@@ -1,5 +1,6 @@
 import React from 'react';
 import {Navbar,Nav} from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 
 const Header = () => {
@@ -7,15 +8,15 @@ const Header = () => {
         <div>
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
             <div className='container'>
-            <Navbar.Brand  href="#home">React-Bootstrap</Navbar.Brand>
+            <Link className="navbar-brand" to="/">React-Bootstrap</Link>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="ms-auto">
-                <Nav.Link href="#features">Home</Nav.Link>
-                <Nav.Link href="#pricing">Destination</Nav.Link>
+                <Link className="nav-link" to="/">Home</Link>
+                <Link className="nav-link" to="/">Destination</Link>
                 <Nav.Link href="#features">Blog</Nav.Link>
                 <Nav.Link href="#pricing">Contact</Nav.Link>
-                <button className="btn btn-danger">Log in</button>
+                <Link to="/login"><button className="btn btn-danger">Log in</button></Link>
                 </Nav>
             </Navbar.Collapse>
             </div>
