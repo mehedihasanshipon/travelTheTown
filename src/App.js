@@ -8,26 +8,36 @@ import {
 } from "react-router-dom";
 import RideDetails from './components/RideDetails/RideDetails';
 import Login from './components/Login/Login';
+import { createContext, useState } from 'react';
+import Blog from './components/Blog/Blog';
+import PrivateRoute from './components/PrivateRoute/PrivateRoute';
+export const UserContext = createContext();
 
 function App() {
+  const [loggedInUser,setLoggedInUser] = useState({});
   return (
-      <Router>
-        <Header />
-        <Switch>
-          <Route exact path="/">
-            <Home />
-          </Route>
-          <Route path="/ride/:type">
-            <RideDetails />
-          </Route>
-          <Route path="/login">
-            <Login />
-          </Route>
-        </Switch>
-      </Router>
-      // <Header />
-      // <Home />
-    
+      <UserContext.Provider value={[loggedInUser,setLoggedInUser]}>
+          <Router>
+          <Header />
+          <Switch>
+            <Route exact path="/">
+              <Home />
+            </Route>
+            <Route path="/home">
+              <Home />
+            </Route>
+            <PrivateRoute path="/ride/:type">
+              <RideDetails />
+            </PrivateRoute>
+            <Route path="/login">
+              <Login />
+            </Route>
+            <PrivateRoute exact path="/blog">
+              <Blog />
+            </PrivateRoute>
+          </Switch>
+        </Router>
+      </UserContext.Provider>
   );
 }
 

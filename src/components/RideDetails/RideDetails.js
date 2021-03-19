@@ -11,12 +11,12 @@ import FakeData from '../../FakeData/data.json';
 // {name:'Canon',category:'train'},{name:'Sony',category:'train'},{name:'Nikkon',category:'train'}]
 
 const RideDetails = () => {
-    console.log(FakeData);
+    // console.log(FakeData);
 
   const { type } = useParams();
   const [rides,setRides] = useState([]);
   const [search,setSearch] = useState(false);
-  console.log(rides);
+  // console.log(rides);
 
   useEffect(()=>{
 

@@ -1,9 +1,9 @@
 import React from 'react';
 import { useHistory } from 'react-router';
-import './Rides.css'
+import './Rides.css';
 
 const Rides = (props) => {
-    console.log(props.ride)
+    // console.log(props.ride)
     const {title,imgUrl,rideType} = props.ride;
     const history = useHistory()
     const handleBook = (rideType) => {
