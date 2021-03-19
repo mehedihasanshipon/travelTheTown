@@ -1,5 +1,9 @@
 .vd{
-    height: 600px;
+    height: 100vh;
+    /* display: flex;
+    flex-wrap: wrap;
+    align-items: center !important;
+    justify-content: center !important; */
 }
 
 .ride{
@@ -9,10 +13,13 @@
     border-radius: 1rem;
     cursor: pointer;
     box-shadow: 5px 5px 5px gray;
+    margin: 10px;
+    width: 450px !important;
+    /* height: 450px !important; */
 }
 .ride img{
-    height: 250px;
-    width: 500px;
+    /* height: 300px !important; */
+    width: 300px !important;
     padding: 20px;
     border-radius: 5px;
 }

@@ -5,11 +5,6 @@ import MatchRides from "../MatchRides/MatchRides";
 import "./RideDetails.css";
 import FakeData from '../../FakeData/data.json';
 
-// const allRides = [{name:'Hero',category:'bike'},{name:'Yamaha',category:'bike'},{name:'FZR',category:'bike'},
-// {name:'Nokia',category:'car'},{name:'Samsung',category:'car'},{name:'Redmi',category:'car'},
-// {name:'Canon',category:'bus'},{name:'Sony',category:'bus'},{name:'Nikkon',category:'bus'},
-// {name:'Canon',category:'train'},{name:'Sony',category:'train'},{name:'Nikkon',category:'train'}]
-
 const RideDetails = () => {
     // console.log(FakeData);
 

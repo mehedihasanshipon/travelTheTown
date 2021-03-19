@@ -10,10 +10,12 @@ const Rides = (props) => {
         history.push(`/ride/${rideType}`);
     }
     return (
-        <div className="col-md-6 col-lg-3 vd d-flex justify-content-center align-items-center">
-            <div onClick={()=>handleBook(rideType)} className="ride">
+        <div className="col-md-6 col-lg-3 vd d-flex align-items-lg-center align-items-md-center align-items-sm-start">
+            <div onClick={()=>handleBook(rideType)} className="ride d-flex justify-content-center align-items-center">
+                <div className="">
                 <img className="img-fluid" src={imgUrl} alt=""/>
                 <h4>{title}</h4>
+                </div>
             </div>
         </div>
     );
