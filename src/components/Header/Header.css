@@ -1,0 +1,23 @@
+.navBar{
+    background-color: #2DC0CC;
+}
+.navbar-brand img{
+    height: 50px;
+    border-radius: 45%;
+    /* color: white; */
+}
+.nav-link,.nav-button,.navbar-brand{
+    font-size: 20px;
+    padding-right: 30px !important;
+    color: white !important;
+    font-weight: 600;
+    margin: 0 5px !important;
+    transition: all 1s ease !important;
+}
+.navbar-brand{
+    font-size: 22px !important;
+}
+.nav-link:hover{
+    color: #FF0084 !important;
+    transform: all 1s ease !important;
+}

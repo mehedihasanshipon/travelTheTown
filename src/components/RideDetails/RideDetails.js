@@ -4,6 +4,7 @@ import map from "../../images/Map.png";
 import MatchRides from "../MatchRides/MatchRides";
 import "./RideDetails.css";
 import FakeData from '../../FakeData/data.json';
+import Map from "../Map/Map";
 
 const RideDetails = () => {
     // console.log(FakeData);
@@ -29,14 +30,14 @@ const RideDetails = () => {
               <form>
                 <div className="mb-3">
                     <label for="from" className="form-label">Pick from </label>
-                    <input type="email" className="form-control" id="from" aria-describedby="emailHelp"></input>
+                    <input type="email" className="form-control" id="from" aria-describedby="emailHelp" placeholder="From" required></input>
                 </div>
                 <div className="mb-3">
                     <label for="to" className="form-label">Pick to</label>
-                    <input type="email" className="form-control" id="to" aria-describedby="emailHelp"></input>
+                    <input type="email" className="form-control" id="to" aria-describedby="emailHelp" placeholder="Destination"></input>
                 </div>
             </form>
-            :""
+            : <h6 className="text-center" style={{color:'green'}}>Your available rides</h6>
             }
             <button onClick={()=>{setSearch(!search)}} className="search-btn">Search</button>
             {
@@ -44,9 +45,9 @@ const RideDetails = () => {
             }
           </div>
         </div>
-        <div className="col-md-7 d-flex justify-content-end">
+        <div className="col-md-7 d-flex justify-content-center">
           <div className="map">
-            <img className="img-fluid h-100" src={map} alt="" />
+            <Map />
           </div>
         </div>
       </div>
