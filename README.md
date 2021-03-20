@@ -1,26 +1,35 @@
 # Travel The Town web app.
 
-## Travel The Town is secured and comportable ride service fot your journey.
+## Travel The Town is secured and comport-able ride service for your journey.
+
+### Title name ###
+* Title name: "Travel The Town" , {A ride service company for you to travel the town.}
 
 ### What I have been used for this project!! ###
 
-* React Router
+* React App
+* Firebase
+* React Router Dom
+* React Form Hook
 * React Bootstrap
-* Font Awsome
+* Font Awesome
 * Plain Bootstrap
 * Normal CSS
+* Google Map API
+* FakeData
 * Hooks
-  * useState 1
-  * useEffects 2
-  * useParams 3
-  * useHistory 4
-
-### Title name ###
-* Title name: "All Football",{which means you can find all information about football in single apps.}
+  * useState 
+  * useEffects 
+  * useParams 
+  * useHistory
+  * useLocation
+  * useRef
+  * useHistory
 
 ### Extra added feature ###
- * Navbar in header section.
+ * Change Navbar design in header section.
  * Change cards color and design.
+ * Responsive for Desktop,Mobile version
 
-https://allfootball.netlify.app/ - automatic!
-[Live-link](https://allfootball.netlify.app/)
+https://react-auth-assignment-4c501.web.app/ - Travel The Town!
+[Live-link](https://react-auth-assignment-4c501.web.app/)
