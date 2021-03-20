@@ -2,9 +2,7 @@ import React from 'react';
 import {
     withGoogleMap,
     withScriptjs,
-    GoogleMap,
-    Marker,
-    InfoWindow
+    GoogleMap
   } from "react-google-maps";
 
  const ReactMap = ()=>{
