@@ -28,7 +28,7 @@
 
 ### Extra added feature ###
  * Change Navbar design in header section.
- * Change cards color and design.
+ * Change random color and design.
  * Responsive for Desktop,Mobile version
 
 https://react-auth-assignment-4c501.web.app/ - Travel The Town!
